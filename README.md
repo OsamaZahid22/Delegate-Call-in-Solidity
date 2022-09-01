@@ -1,4 +1,4 @@
-# Delegate Calls In Solidity
+# Delegate Call In Solidity
 
 DelegateCall, as the name implies, is calling mechanism of how caller contract calls target contract function but when target contract executed its logic, the context is not on the user who execute caller contract but on caller contract.
 
