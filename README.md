@@ -1,5 +1,7 @@
 # Delegate Call In Solidity
 
+```.delegatecall()``` is a method in Solidity used to call a function in a target contract from an original contract. However, unlike other methods, when the function is executed in the target contract using .delegatecall(), the context is passed from the original contract i.e. the code executes in the target contract, but variables get modified in the original contract.
+
 DelegateCall, as the name implies, is calling mechanism of how caller contract calls target contract function but when target contract executed its logic, the context is not on the user who execute caller contract but on caller contract.
 
 ![image](https://user-images.githubusercontent.com/102557215/187830372-8c5c7fa2-f078-4565-a7b1-d5ef44dd1111.png)
